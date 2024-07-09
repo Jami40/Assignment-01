@@ -1,0 +1,98 @@
+ @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.azeret-mono-font{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .banner{
+    max-width: 1440px;
+    min-height: 652px;
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    
+
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+.image-w-h{
+
+  width: 240px;
+
+  height: 240px;
+
+  
+
+
+
+  }
+.banner-text{
+  margin-left: 206px;
+
+  margin-right: 206px;
+}
+
+
+
+  .banner-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 34px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+
+margin-top: 37.1px;
+
+
+  }
+
+  .banner-bio{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 20px;
+width: 910px;
+
+margin-left: 20px;
+  }
+
+.btn{
+  color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 5px;
+
+background: rgb(13, 19, 33);
+
+padding: 19px 22px 19px 22px;
+
+margin-top: 30px;
+}
+
